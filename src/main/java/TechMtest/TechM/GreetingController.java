@@ -25,4 +25,10 @@ public class GreetingController {
     public String showMessage() {
     	return "hello";
     }
+    
+  //adding code to feature2 branch
+    @GetMapping("/show2")
+    public String showMessage2() {
+    	return "hi";
+    }
 }
