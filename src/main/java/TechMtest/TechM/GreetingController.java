@@ -20,7 +20,7 @@ public class GreetingController {
             String.format(template, name));
     }
     
-    //adding code to feature branch
+    //adding code to feature branch.
     @GetMapping("/show")
     public String showMessage() {
     	return "hello";
