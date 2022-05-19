@@ -34,9 +34,15 @@ public class GreetingController {
     	return "hi";
     }
     
+
   //adding code to feature4 branch
     @GetMapping("/show4")
     public String showMessage4() {
+	return "hi";
+}
+  //adding code to feature5 branch
+    @GetMapping("/show2")
+    public String showMessage5() {
     	return "hi";
     }
 }
